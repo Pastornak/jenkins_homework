@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" data-provider-thread-count="3">
+    <test name="Homework9_success">
+        <classes>
+            <class name="test.java.com.epam.lab.web.GmailTest"/>
+        </classes>
+    </test>
+    <test name="Homework9_fail">
+        <classes>
+            <class name="test.java.com.epam.lab.web.FailTest"/>
+        </classes>
+    </test>
+</suite>
